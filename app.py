@@ -9,7 +9,7 @@ app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 @app.route('/')
 def hello_world():
     """ Returns root endpoint HTML """
-    trying = 1
+    
     keyword_query = 'Apple' # Change it to something you're interested in!
     article_data = get_article_data(keyword_query)
 
